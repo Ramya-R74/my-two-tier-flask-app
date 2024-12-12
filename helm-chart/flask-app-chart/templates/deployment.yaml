@@ -47,7 +47,7 @@ spec:
               value: {{ .Values.env.mysqldb }}
           ports:
             - name: http
-              containerPort: {{ .Values.service.targetport }}
+              containerPort: {{ .Values.service.targetPort }}
               protocol: TCP
           resources:
             {{- toYaml .Values.resources | nindent 12 }}
