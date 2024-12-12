@@ -65,7 +65,7 @@ This project demonstrates the development, containerization, and deployment of a
 ### Local Development
 1. Clone the repository:
    ```bash
-   git clone <repository-url>
+   git clone https://github.com/Ramya-R74/my-two-tier-flask-app.git
    ```
 2. Navigate to the project directory:
    ```bash
